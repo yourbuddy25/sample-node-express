@@ -2,7 +2,7 @@
  * @author Léo Unbekandt
  */
 
-// Trap SIGUSR1 to print memory allocation information
+// Trap SIGUSR1 to print memory heap information
 process.on("SIGUSR1", () => {
   const used = process.memoryUsage();
 
