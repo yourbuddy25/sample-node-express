@@ -20,9 +20,9 @@ And that's it!
 ## Running Locally
 
 ```shell
-docker-compose build
-docker-compose run --rm web npm install
-docker-compose up
+docker compose build
+docker compose run --rm web npm install
+docker compose up
 ```
 
 ## Links
